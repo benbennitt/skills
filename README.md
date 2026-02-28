@@ -1,6 +1,8 @@
 # Skills
 
-Custom agent skills for AI coding assistants. These skills follow the [Agent Skills Standard](https://skills.sh/) and work with Claude Code, OpenClaw, Cursor, Codex, and other compatible tools.
+These skills are intended for use with Claude Code, OpenClaw, Cursor, Codex, and other compatible tools. I'm learning, so these skills are highly exploratory and a work-in-progress. 🧪 🤖 ⚒️ 
+
+The structure here is inspired by others like [@shpigford/skills](https://github.com/shpigford/skills), and the skills follow the [agentskills.io/specification](https://agentskills.io/specification). Find more info and better skills at [skills.sh](https://skills.sh).
 
 ## Install
 
@@ -19,6 +21,7 @@ npx skills add benbennitt/skills --skill new-project
 | Skill | Description |
 |-------|-------------|
 | [new-project](./new-project/) | Scaffold a new project with proper CLAUDE.md, skills, MCP config, and docs structure |
+| [self-enhance](./self-enhance/) | Review recent work, identify process gaps, and produce specific file edits to prevent repeated mistakes |
 
 ## Structure
 

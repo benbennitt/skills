@@ -22,6 +22,7 @@ npx skills add benbennitt/skills --skill new-project
 |-------|-------------|
 | [new-project](./new-project/) | Scaffold a new project with proper CLAUDE.md, skills, MCP config, and docs structure |
 | [self-enhance](./self-enhance/) | Review recent work, identify process gaps, and produce specific file edits to prevent repeated mistakes |
+| [orchestrator](./orchestrator/) | Patterns for spawning, managing, and reviewing Claude Code agents from an orchestrator |
 
 ## Structure
 

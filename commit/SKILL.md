@@ -30,12 +30,12 @@ Author: Agent via <model>
 ### Good Examples
 
 ```
-Add comprehensive domain search with extensive TLD support
-Fix up misc page titles
-Refine how invalid cells are styled
-Fix up SSR and hide controls on Sudoki game over
-Remove deprecated API endpoints
-Update user authentication flow
+Add dark mode toggle to settings page
+Fix race condition in WebSocket reconnect logic
+Refactor pricing calculator into composable hooks
+Remove unused analytics middleware
+Update password validation to enforce minimum entropy
+Collapse sidebar navigation on mobile viewports
 ```
 
 ### Bad Examples

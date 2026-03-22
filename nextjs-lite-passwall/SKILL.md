@@ -1,6 +1,6 @@
 ---
-name: nextjs-password-wall
-description: Add a simple password wall to any Next.js app using bcrypt + JWT cookies. Use when a project needs basic auth, a password gate, deployment protection, or when the user says "add a password" or "lock this down" for a Next.js app. Not for user accounts or multi-user auth — this is a single shared password.
+name: nextjs-lite-passwall
+description: Add a lightweight single-password wall to any Next.js app using bcrypt + JWT cookies. Use when a project needs basic auth, a password gate, deployment protection, or when the user says "add a password" or "lock this down" for a Next.js app. Not for user accounts, multi-user auth, or high-security applications — this is a single shared password for keeping personal tools and dashboards private.
 metadata:
   author: benbennitt
   version: "1.0"

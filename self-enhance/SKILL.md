@@ -16,26 +16,34 @@ Review recent work and produce specific, actionable file edits that improve agen
 
 ## Process
 
+### ⚠️ Workspace Boundaries
+
+**Only read and write files within YOUR workspace.** Do not access other agents' workspaces, memory files, or project directories. If you find content about projects or work you don't recognize, stop — you're reading another agent's files.
+
+Your workspace is the directory set in your agent config. All relative paths below are relative to YOUR workspace root.
+
 ### Step 1: Gather Context
 
-Read these sources to understand what happened recently:
+Read these sources from **your own workspace** to understand what happened recently:
 
 ```
-# Recent memory (last 7 days)
+# Recent memory from YOUR workspace (last 7 days)
 memory/YYYY-MM-DD.md files
 
-# Recent git activity across active projects
-git -C /path/to/project log --oneline --since="7 days ago"
+# Recent git activity in YOUR projects only
+git -C /path/to/your/project log --oneline --since="7 days ago"
 
-# Current identity and process files
+# YOUR identity and process files
 SOUL.md
 AGENTS.md
 HEARTBEAT.md
 
-# Project configs for active projects
-{project}/CLAUDE.md
-{project}/.claude/skills/
+# Project configs for YOUR active projects only
+{your-project}/CLAUDE.md
+{your-project}/.claude/skills/
 ```
+
+Do NOT use `memory_search` for this step — it may return results from other agents' workspaces. Read your memory files directly with the read tool.
 
 ### Step 2: Identify Patterns
 
